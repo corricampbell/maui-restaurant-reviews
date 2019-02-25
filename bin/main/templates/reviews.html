@@ -8,7 +8,7 @@
 <h1>Corri's Reviews - Top 3 Maui Restaurants</h1>
 
 	<div th:each="review: ${reviews}">
-		<li th:text="${review.title}"> </li>
+		<a th:href = "@{/review(id=${review.id})}" th:text = "${review.title}"> </a>
 	</div>
 
 </body>
