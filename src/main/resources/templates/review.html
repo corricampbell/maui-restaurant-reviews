@@ -5,7 +5,19 @@
 </head>
 <body>
 
-    <h1>A Single Review Test</h1>
+	<div th:each="review: ${reviews}">
+
+    <h1 th:text="${review.title}">A Single Review</h1>
+    <p th:text="${review.body}">Body Text</p>
+    <p th:text=${review.description}">Description</p>
+    <img th:src=
+    
+    
+    <a href = "http://localhost:8080/show-reviews">Back to home</a>
+    </div>
+
+
+
 
 </body>
 </html>

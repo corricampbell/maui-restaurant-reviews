@@ -13,9 +13,9 @@ public class ReviewRepository {
 	private Map<Long, Review> reviewList = new HashMap<>();
 	
 	public ReviewRepository() {
-		Review review1 = new Review(1L, "Cool Cat Cafe", "Review Body", "Review Description", "/images/CCCLogo.jpg");
-		Review review2 = new Review(2L, "The Pioneer Inn", "Review Body", "Javascript Description", "/images/PioneerLogo.jpg");
-		Review review3 = new Review(3L, "Hula Girl", "Review Body", "Spring Description", "/images/HulaLogo.jpg");
+		Review review1 = new Review(1L, "Cool Cat Cafe", "Great restaurant and good prices!", "Review Description", "/images/CCCLogo.jpg");
+		Review review2 = new Review(2L, "The Pioneer Inn", "Best breakfast ever!", "Javascript Description", "/images/PioneerLogo.jpg");
+		Review review3 = new Review(3L, "Hula Girl", "Great way to see the sunset!", "Spring Description", "/images/HulaLogo.jpg");
 		
 		reviewList.put(review1.getId(), review1);
 		reviewList.put(review2.getId(), review2);
