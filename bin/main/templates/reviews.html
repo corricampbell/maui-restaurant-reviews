@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Reviews</title>
+</head>
+<body>
+
+<h1>Corri's Reviews - Top 3 Maui Restaurants</h1>
+
+	<div th:each="review: ${reviews}">
+		<li>th:text="${review.name}" </li>
+	</div>
+
+</body>
+</html>
